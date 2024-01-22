@@ -1,0 +1,39 @@
+.navigation {
+  border-bottom: 1px solid black;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+}
+button {
+  border: none;
+  background-color: rgb(120, 120, 251);
+  border-radius: 5px;
+  width: 100px;
+  height: 29px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.item img {
+  width: 400px;
+  height: 400px;
+}
+.background {
+  background-color: rgb(222, 220, 220);
+}
